@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_white_font_color"
+    android:orientation="vertical" >
+
+    <!-- 主窗体的视图 -->
+
+    <include
+        android:id="@+id/toptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        layout="@layout/top_title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/mbody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toptitle"
+        android:layout_marginBottom="-14dip"
+        android:clickable="true" />
+    <!-- 底部按钮 -->
+
+    <LinearLayout
+        android:id="@+id/bottomview"
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/bottom_tab_common_bg"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/chat_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/radiobutton_one"
+                android:layout_width="36dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/tab_task_n" />
+
+            <TextView
+                android:id="@+id/radiotext_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radiobutton_one"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="聊天"
+                android:textSize="@dimen/distance_12" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/task_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/radiobutton_two"
+                android:layout_width="36dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/tab_mailist_n" />
+
+            <TextView
+                android:id="@+id/radiotext_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radiobutton_two"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/contacts_title"
+                android:textSize="@dimen/distance_12" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/share_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/radiobutton_three"
+                android:layout_width="36dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/tab_kanban_n" />
+
+            <TextView
+                android:id="@+id/radiotext_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radiobutton_three"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="发现"
+                android:textSize="@dimen/distance_12" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/me_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/radiobutton_four"
+                android:layout_width="36dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/tab_me_n" />
+
+            <TextView
+                android:id="@+id/radiotext_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radiobutton_four"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/tab_me"
+                android:textSize="@dimen/distance_12" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
