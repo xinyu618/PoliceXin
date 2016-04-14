@@ -2,4 +2,138 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- 2014/7/18/社区一般图标大小 -->
+    <dimen name="common_icon_size">36dp</dimen>
+
+    <!-- 详细信息页面标题字体大小 -->
+    <dimen name="common_detail_title_size">22dp</dimen>
+    <!-- 办事指南，参与调查详细页面单位及时间部分字体大小 (以前是12sp) -->
+
+
+    <!-- 内容列表标题字体大小由17sp改到20sp -->
+    <dimen name="common_content_list_title_size">20dp</dimen>
+
+    <!-- 菜单列表(如便民服务)标题大小 -->
+    <dimen name="common_menu_list_title_size">0dp</dimen>
+
+    <!-- start顶部条文字 大小1 -->
+    <dimen name="common_TopFont_size">22dp</dimen>
+
+    <!-- start正文标题文字 大小1 -->
+    <dimen name="common_Text1_size">20dp</dimen>
+
+    <!-- start正文文字 大小tab页签16sp -->
+    <dimen name="common_Text2_size">16dp</dimen>
+
+    <!-- 办事指南tab选项填充间隔 -->
+    <dimen name="service_category_tab_padding">4dp</dimen>
+
+    <!-- 大头项目的size -->
+    <dimen name="big_head_size">70dp</dimen>
+    <!-- 用户个人资料界面的头像大小 -->
+    <dimen name="user_info_head_size">65dp</dimen>
+    <dimen name="user_info_head_size_small">40dp</dimen>
+    <dimen name="user_info_head_size_item">20dp</dimen>
+    <dimen name="user_info_head_size_smaller">36dp</dimen>
+    <dimen name="member_head_size">48dp</dimen>
+    <!-- 距离底部按钮的距离的size -->
+    <dimen name="padding_bottom_size">60dp</dimen>
+
+    <!-- 文字边距20dp距离 -->
+    <dimen name="distance_120">120dp</dimen>
+
+    <!-- 文字边距20dp距离 -->
+    <dimen name="distance_20">20dp</dimen>
+    <dimen name="distance_30">30dp</dimen>
+
+    <!-- 文字边距10dp距离 -->
+    <dimen name="distance_10">10dp</dimen>
+    <!-- 文字边距12dp距离 -->
+    <dimen name="distance_12">12dp</dimen>
+    <!-- 文字边距14dp距离 -->
+    <dimen name="distance_14">14dp</dimen>
+
+    <!-- 文字边距2dp距离 -->
+    <dimen name="distance_2">2dp</dimen>
+    <dimen name="distance_5">5dp</dimen>
+    <dimen name="distance_6">6dp</dimen>
+    <dimen name="distance_4">4dp</dimen>
+    <dimen name="distance_16">16dp</dimen>
+    <dimen name="distance_22">22dp</dimen>
+    <dimen name="distance_24">24dp</dimen>
+    <dimen name="distance_28">28dp</dimen>
+    <dimen name="distance_18">18dp</dimen>
+    <dimen name="distance_32">32dp</dimen>
+    <dimen name="distance_34">34dp</dimen>
+    <dimen name="distance_36">36dp</dimen>
+    <dimen name="distance_38">38dp</dimen>
+    <dimen name="distance_40">40dp</dimen>
+    <dimen name="distance_50">50dp</dimen>
+    <dimen name="distance_64">64dp</dimen>
+    <dimen name="distance_80">80dp</dimen>
+
+    <!-- 文字边距8dp距离 -->
+    <dimen name="distance_8">8dp</dimen>
+    <!-- 列表中间的距离 -->
+    <dimen name="list_item_margin">15dp</dimen>
+
+    <!-- 正文1.2dp行距 -->
+    <dimen name="content_line_margin">1.2dp</dimen>
+
+    <!-- 顶部导航条高度 -->
+    <dimen name="top_navigation_height">48dp</dimen>
+
+    <!-- listView item高度，目前应用于服务和办事指南 -->
+    <dimen name="list_view_item_height">60dp</dimen>
+    <!-- 分享界面 -->
+    <dimen name="share_zhang">34dp</dimen>
+    <dimen name="create_share_edit">90dp</dimen>
+    <dimen name="create_share_image">60dp</dimen>
+    <!-- 使用common_input_editview 的输入框高度 -->
+    <dimen name="edit_text_height">45dp</dimen>
+    <dimen name="tab_share">44dp</dimen>
+    <!-- 主窗体抽屉的时候右边的间距 -->
+    <dimen name="sliding_menu_space">45dp</dimen>
+    <!-- 动态里显示的添加删除成员头像大小 -->
+    <dimen name="moving_list_space_user_head_size">45dp</dimen>
+    <dimen name="share_head_heightsize">46dp</dimen>
+    <!-- 添加附件里面的图标大小 -->
+    <dimen name="accessory_head_widthsize">40dp</dimen>
+    <!-- 添加附件里面的图标大小 -->
+    <dimen name="accessory_head_heightsize">42dp</dimen>
+
+    <!-- 动态里显示的添加删除成员头像之间的间隔大小 -->
+    <dimen name="moving_list_space_user_head_space">5dp</dimen>
+    <!-- 添加附加界面点击按钮后弹出按钮界面大小 -->
+    <dimen name="accessory_button_heihgt">70dp</dimen>
+    <dimen name="share_nametime">56dp</dimen>
+
+    <!-- common_font_size -->
+    <!-- 适用于注释 消息提醒数字时间 -->
+    <dimen name="common_font_size_12dp">12dp</dimen>
+    <!-- 适用于列表标题正文 -->
+    <dimen name="common_font_size_16dp">16dp</dimen>
+    <!-- 适用于标题栏和按钮文字 -->
+    <dimen name="common_font_size_18dp">18dp</dimen>
+    <!-- end common_font_size -->
+
+
+    <dimen name="common_font_size_24dp">24dp</dimen>
+    <dimen name="common_font_size_22dp">22dp</dimen>
+    <dimen name="common_font_size_20dp">20dp</dimen>
+    <dimen name="common_font_size_15dp">15dp</dimen>
+    <dimen name="common_font_size_14dp">14dp</dimen>
+    <dimen name="common_font_size_13dp">13dp</dimen>
+    <dimen name="common_font_size_10dp">10dp</dimen>
+    <dimen name="distance_15dp">15dp</dimen>
+    <dimen name="distance_200">200dp</dimen>
+    <dimen name="app_ic">64dp</dimen>
+    <!-- 反馈输入框的高度 -->
+    <dimen name="feedback_editText_height">190dp</dimen>
+    <!-- 我的文档界面每一项的高度 -->
+    <dimen name="me_document_item_height">72dp</dimen>
+    <dimen name="kanban_list_first_itme_image_size">36dp</dimen>
+
 </resources>

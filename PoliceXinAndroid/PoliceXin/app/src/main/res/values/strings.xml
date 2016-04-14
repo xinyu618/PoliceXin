@@ -1,3 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PoliceXin</string>
+
+    <string name="app_name">警信</string>
+    <string name="main_name">主页!</string>
+    <string name="login">登陆</string>
+    <string name="login_name_empty">用户名不能为空</string>
+    <string name="login_password_empty">密码不能为空</string>
+    <string name="login_fail">用户名或密码错误</string>
+
+    <!-- 退出编辑 -->
+    <string name="exit_dialog_title">退出编辑</string>
+    <string name="exit_dialog_body">是否确认退出编辑?</string>
+    <string name="exit_dialog_title_person_changed">参与人已改变</string>
+    <string name="exit_dialog_body_confirm">是否保存修改?</string>
+
+    <!-- 退出编辑 -->
+    <!-- 网络公共对话框 -->
+    <string name="net_no_data">暂无数据!</string>
+    <!-- 网络公共对话框 -->
+    <!-- 公共进度条 -->
+    <string name="progress_loading">正在加载...</string>
+    <!-- 公共进度条 -->
+    <!-- 其他公共属性 -->
+    <string name="del">删除</string>
+    <string name="down">下载</string>
+    <!-- 其他公共属性 -->
+    <!-- mainActivity -->
+    <string name="main_activity_loginout_tip">再按一次退出程序</string>
+    <!-- mainActivity -->
+    <!-- 动态 -->
+    <string name="moving_title">动态</string>
+    <string name="moving_list_space_item_add">新增</string>
+    <string name="moving_list_space_item_del">删除</string>
+    <string name="moving_dialog_title_all">全部</string>
+    <string name="moving_dialog_title_all_title">动态</string>
+    <string name="moving_dialog_title_task">任务</string>
+    <string name="moving_dialog_title_task_title">最新任务</string>
+    <string name="moving_dialog_title_discuss">讨论</string>
+    <string name="moving_dialog_title_discuss_title">最新讨论</string>
+    <string name="moving_dialog_title_share">分享</string>
+    <string name="moving_dialog_title_share_title">最新分享</string>
+    <string name="moving_dialog_title_space">空间</string>
+    <string name="moving_dialog_title_space_title">最新空间</string>
+    <!-- 动态 -->
+
+    <string name="moving_title_myspace">首页</string>
+    <string name="task_title_myspace">任务</string>
+
+    <!-- 待办 -->
+    <string name="to_do_title">待办</string>
+    <!-- 待办 -->
+
+
+    <!-- 跟踪 -->
+    <string name="track_title">跟踪</string>
+    <!-- 跟踪 -->
+
+
+    <!-- 跟踪 -->
+    <string name="more_title">更多</string>
+    <!-- 跟踪 -->
+
+
+    <!-- 任务 -->
+    <string name="task_title">任务 </string>
+    <string name="task_dialog_top_Text_myTask">安排给我的任务</string>
+    <string name="task_dialog_bottom_text_myTask">安排给我的</string>
+    <string name="task_dialog_top_Text_my_sent_task">我安排的任务</string>
+    <string name="task_dialog_bottom_text_my_sent_task">我安排的</string>
+    <string name="task_dialog_top_Text_other_task">其他的任务</string>
+    <string name="task_dialog_bottom_text_other_task">其他</string>
+    <string name="task_dialog_top_Text_finish_task">已完成的任务</string>
+    <string name="task_finish">已完成</string>
+
+    <!-- 选人 -->
+    <string name="select_person_count">已选 %1$s人</string>
+    <!-- 选人 -->
+    <!-- 通讯录 -->
+    <string name="contacts_title">通讯录 </string>
+    <!-- 通讯录 -->
+    <!-- 会话 -->
+    <string name="conversation_title">会话 </string>
+    <string name="contacts_person_count">%1$s个成员</string>
+    <string name="conversation_user_information_title">详细资料</string>
+    <string name="conversation_user_information_name_label">姓名：</string>
+    <string name="conversation_user_information_sex_label">性别：</string>
+    <string name="conversation_user_information_division">部门：</string>
+    <string name="conversation_user_information_position_label">所属组织：</string>
+    <string name="conversation_user_information_post">岗位：</string>
+    <string name="conversation_user_information_phone_label">电话：</string>
+    <string name="conversation_user_information_email_label">邮箱：</string>
+    <string name="conversation_user_information_ext_label">分机：</string>
+    <string name="conversation_user_information_area_label">地区：</string>
+    <string name="conversation_user_information_describtion_label">个人描述：</string>
+    <string name="conversation_user_information_send_message_text">发送消息</string>
+    <string name="conversation_user_information_schedule_task_text">安排任务</string>
+    <string name="conversation_can_not_chat_to_self">不能和自己聊天</string>
+    <string name="phone_dialog_title">呼叫</string>
+    <string name="phone_dialog_body">是否拨打:</string>
+    <string name="conversation_he_not_set_phone_num">对方没有设置电话号码</string>
+    <string name="conversation_he_not_set_email">对方没有设置邮箱账号</string>
+    <string name="confirm">确认</string>
+    <string name="detemine">确定</string>
+    <string name="member">成员</string>
+    <string name="cancel">取消</string>
+    <!-- 会话 -->
+
+
+    <!-- 左菜单 -->
+    <string name="sliding_menu_left_my_task">我的任务</string>
+    <string name="sliding_menu_left_my_world">个人中心</string>
+    <string name="sliding_menu_left_my_community">我的社区</string>
+    <string name="sliding_menu_left_my_space">我的空间</string>
+    <string name="sliding_menu_left_about">关于</string>
+    <string name="sliding_menu_left_change_pwd">修改密码</string>
+    <string name="sliding_menu_left_settings">设置</string>
+    <string name="sliding_menu_left_feedback">反馈意见</string>
+
+    <!-- 设置 -->
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="setting_change_pwd_newpwd">新密码:</string>
+    <string name="setting_change_pwd_oldpwd">旧密码:</string>
+    <string name="setting_change_pwd_input_newpwd">请输入新密码</string>
+    <string name="setting_change_pwd_input_oldpwd">请输入旧密码</string>
+    <string name="setting_change_pwd_confirm_pwd">确认密码:</string>
+    <string name="setting_change_pwd_input_confirm_pwd">请再次输入新密码</string>
+    <string name="setting_change_pwd">修改密码</string>
+    <string name="setting_change_pwd_success">修改密码成功！</string>
+    <string name="setting_change_pwd_fail">修改密码失败！</string>
+    <string name="setting_change_pwd_can_not_empty">密码不能为空！</string>
+    <string name="setting_change_pwd_not_same">新密码确认不一致！</string>
+    <string name="setting_change_pwd_newpwd_bit">新密码应该在6-20位之间！</string>
+    <string name="setting_change_oldpwd_not_same">输入旧密码错误！</string>
+
+    <!-- 左菜单 -->
+
+    <string name="register_name_digits">._0123456789abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLIMNOPQRSTUVWXYZ+@</string>
+    <string name="new_title_message">您有%1$s条新的提醒信息 </string>
+
+    <!-- 下拉小题通知 -->
+    <string name="push_message_notification_title">您收到%1$s条未读通知!</string>
+    <string name="push_message_chat_title">您收到%1$s条聊天消息!</string>
+    <!-- 下拉小题通知 -->
+
+
+    <!-- 通知中心 -->
+    <string name="notification_center_activity_title">通知中心</string>
+    <string name="notification_center_activity_read">已读</string>
+    <string name="notification_center_activity_unread">未读</string>
+    <!-- 通知中心 -->
+
+
+    <!-- 附件管理 -->
+    <string name="collect_sdcard_no_exist_tip">SD卡不存在或不可用!</string>
+    <string name="attachment_activity_title">附件管理</string>
+    <string name="attachment_activity_no_down">文件还没下载</string>
+    <string name="attachment_activity_uplodaing">正在上传...</string>
+    <string name="attachment_activity_downlodaing">正在下载...</string>
+    <string name="attachment_activity_uploda_error">上传失败</string>
+    <string name="attachment_activity_downlodad_error">下载失败</string>
+    <string name="attachment_activity_downed">已下载</string>
+    <string name="attachment_activity_is_in_uploadlist">已经在上传队列中</string>
+    <string name="attachment_activity_del_success">附件删除成功</string>
+    <string name="attachment_activity_del_error">附件删除失败</string>
+    <!-- 附件管理 -->
+    <!-- 分享的上传 -->
+    <string name="share_upload_tool_user">参与者</string>
+    <string name="share_upload_tool_adduser">选择参与人</string>
+    <!-- 分享的上传 -->
+    <!-- 新建分享 -->
+    <string name="share_create_share">分享</string>
+    <string name="share_create_activity_title">新建分享</string>
+    <string name="share_create_activity_error">分享失败</string>
+    <string name="share_create_activity_success">分享成功</string>
+    <string name="share_create_activity_title_input">分享主题(选填)</string>
+    <string name="share_create_activity_title_body">说点什么...</string>
+    <string name="share_create_activity_title_no_title">请输入分享标题</string>
+    <string name="share_create_activity_title_no_body">请输入分享内容</string>
+    <!-- 新建分享 -->
+    <!-- 删除分享 -->
+    <string name="share_dialog_title">删除分享</string>
+    <string name="share_dialog_body">主人~您确定要删除辛苦码字分享的内容吗?</string>
+    <!-- 删除分享 -->
+    <!-- 分享列表 -->
+    <string name="share_list_all">全部</string>
+    <string name="share_list_mine">我分享的</string>
+    <string name="share_list_my_collection">我的收藏</string>
+    <!-- 分享列表 -->
+    <!-- 分享详情 -->
+    <string name="share_detail_write_reply">回复分享</string>
+    <string name="share_detail_reply">请输入文字</string>
+    <string name="share_detail_reply_say_sth">说点什么..</string>
+    <string name="share_detail_reply_success">评论成功</string>
+    <!-- 分享详情 -->
+    <!-- 讨论 -->
+    <string name="discuss_create_activity_input">问题主题(选填)</string>
+    <string name="discuss_create_activity_title">我要提问</string>
+    <string name="discuss_create_activity_body">说点什么...</string>
+    <string name="discuss_create_activity_success">新建提问成功</string>
+    <string name="discuss_create_activity_error">新建提问失败</string>
+    <string name="discuss_create_activity_no_title">请输入讨论的标题.</string>
+    <string name="discuss_title_length_over_hint">提问标题不能超过50个字符!</string>
+    <!-- 讨论 -->
+
+
+    <!-- 讨论列表 -->
+    <string name="discuss_main_activity_square">讨论广场</string>
+    <string name="discuss_main_activity_task">任务相关</string>
+    <string name="discuss_main_activity_myjoin">我参与的</string>
+
+    <!-- 讨论列表 -->
+    <!-- 讨论详情 -->
+    <string name="discuss_conclusion_set">设置于</string>
+    <string name="discuss_detail_reply_hint">说点什么...</string>
+    <string name="discuss_detail_title">知道详情</string>
+    <string name="discuss_detail_empty">请输入回复的内容</string>
+    <string name="discuss_detail_success">提交成功</string>
+    <string name="discuss_detail_error">提交失败</string>
+    <string name="discuss_detail_conclusion_title">结论</string>
+    <string name="discuss_detail_conclusion_body">设置该条为结论</string>
+    <string name="discuss_detail_conclusion_set">设置</string>
+    <string name="discuss_detail_conclusion_cancel">取消</string>
+    <string name="discuss_detail_conclusion_success">结论设置成功</string>
+    <string name="discuss_detail_conclusion_error">结论设置失败</string>
+    <string name="discuss_cance_conclustion_success_hint">取消结论成功!</string>
+    <string name="discuss_cance_conclustion_fail_hint">取消结论失败!</string>
+    <string name="discuss_detail_no_more">没有更多回复了.</string>
+    <!-- 讨论详情 -->
+    <!-- 讨论回复 -->
+    <string name="discuss_reply_title">讨论回复</string>
+    <!-- 讨论回复 -->
+    <!-- 新建连接 -->
+    <string name="link_activity_title">添加链接</string>
+    <!-- 新建连接 -->
+    <!-- 调查问卷 -->
+    <string name="main_more_survey">调查问卷</string>
+    <string name="survey_item_content">本次调查只是为个人做学术调查提供数据及参考依据。</string>
+    <string name="survey_name">参与调查</string>
+    <!-- <string name="subjectIndex">第&#160;%1$s&#160;题：    </string> -->
+    <string name="participate_people_number">%1$s人</string>
+    <string name="survey_create_date">创建日期 %1$s</string>
+    <string name="survey_vaild_date">调查时间 %1$s</string>
+    <string name="survey_select_content_title">待完成： %1$s</string>
+    <!-- 调查问卷 -->
+
+
+    <!-- 空间 -->
+    <string name="zone_myzones_nodata">你还没有加入任何空间哦</string>
+    <string name="zone_select_one">选择空间</string>
+    <!-- 空间 -->
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="feed_back_title">反馈意见</string>
+    <string name="service_term">服务条款</string>
+    <string name="about_soft">关于</string>
+    <string name="service_term_TextView1">本软件目前为内测版本，如出现问题敬请原谅。</string>
+    <string name="service_term_TextView2">本软件技术支持单位会尽量提供最新的信息，但在个别情况下，这些信息仍可能与最新的更新情况有所不同，您如使用这些信息，敬请核实。</string>
+    <string name="service_term_TextView3">如因使用本软件提供的信息而导致任何损失或产生任何纠纷，本软件技术支持单位不负全部及其连带责任。</string>
+    <string name="service_term_TextView4">本软件所有解释权归远光软件移动互联网部企业社区小组所有。</string>
+    <string name="feedback_edit_hint">请输入反馈意见......</string>
+    <string name="search">搜索</string>
+    <string name="load_more">加载更多</string>
+    <string name="image">图片</string>
+    <string name="chat_send">发送</string>
+    <string name="no_limit_to_access_local_file">企业社区没有权限访问该文件</string>
+    <string name="empty_file">空文件</string>
+    <string name="sure_to_download_file">你是否想下载附件？</string>
+    <string name="conversation_start_title">发起会话</string>
+    <string name="conversation_selected_contacts_title">联系人</string>
+    <string name="conversation_selected_contacts_group_title">群组</string>
+    <string name="contacts_can_not_search_people">搜索不到此人</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="make_record">按住  说话</string>
+    <string name="msg">消息</string>
+    <string name="tab_me">我</string>
+    <string name="tab_find">看板</string>
+    <string name="my_document">我的文档</string>
+    <string name="document">文档</string>
+    <string name="multimedia">多媒体</string>
+    <string name="take_photos">拍摄</string>
+    <string name="attachs">附件</string>
+    <string name="email">邮件</string>
+    <string name="phone">电话</string>
+    <string name="exit_login">退出登录</string>
+    <string name="my_publish_discuss">知道</string>
+    <string name="my_publish">我发布的</string>
+    <string name="my_published">我发布过的</string>
+    <!-- 消息 -->
+    <string name="msg_at_text">\&#064;我</string>
+    <string name="msg_task_remind_text">任务提醒</string>
+    <string name="msg_due_remind_text">到期提醒</string>
+    <string name="msg_commment_text">评论</string>
+    <string name="msg_from_my_share">评论了您的分享</string>
+    <string name="msg_from_my_comment">评论了您的讨论</string>
+    <string name="select_image">选择图片</string>
+    <string name="spaces_username">空间用户</string>
+
+    <!-- 看板 -->
+    <string name="kanban_zhidao">知道</string>
+    <string name="kanban_tasklist_addtask">新建任务</string>
+    <string name="kanban_add_project">新建任务板</string>
+    <string name="kanban_tasklist">新建列</string>
+
+    <!-- 看板 -->
+
+
+    <!-- ...............公共控件部分开始.............. -->
+    <string name="public_scroll_up_cancel_recording">手指上滑，取消发送</string>
+    <string name="public_hand_up_cancel_recording">松开手指，取消发送</string>
+    <!-- ...............公共控件部分结束.............. -->
+    <!-- 点击退出登录按钮提示 -->
+    <string name="confirm_loginout">您确定需要退出吗？</string>
+    <!-- 我模块 start -->
+    <string name="edit_user_info">编辑</string>
+    <string name="save_user_info">保存</string>
+    <!-- 我模块 end -->
+
 </resources>
