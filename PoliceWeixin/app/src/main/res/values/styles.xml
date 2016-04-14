@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- dialog style -->
+    <style name="dialog_no_title">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 半透明背景样式 -->
+    <style name="Transparent">
+        　　
+        <item name="android:windowBackground">@color/transparent</item>
+        　　
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>
